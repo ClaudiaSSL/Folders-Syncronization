@@ -95,7 +95,7 @@ def given_arguments_cmd_line() -> Namespace:
         default=-1, 
         type=int,
         help=(
-            'The interval (in seconds) in which the program will do the sync rotine.' 
+            'The interval (in seconds) in which the program will do the sync routine.' 
             'If none is provided, an adhoc sync will be performed.'
         )
     )
